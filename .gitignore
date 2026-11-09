@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Chaves e segredos (nunca subir para o GitHub)
+.env
+.streamlit/secrets.toml
+
+# Editor / sistema
+.vscode/
+.DS_Store
+Thumbs.db
