@@ -64,7 +64,21 @@ Não use o botão de "executar" do VS Code: o Streamlit precisa desse comando. O
 
 ## Prints
 
-*(Os prints do chatbot funcionando serão adicionados aqui.)*
+**Sem a chave da API:** o app avisa que é preciso colar a chave.
+
+![Chatbot sem a chave da API](imagens/01_sem_chave.png)
+
+**Com a chave, uma pergunta:**
+
+![Chatbot respondendo uma pergunta](imagens/02_pergunta.png)
+
+**Pergunta de continuação:** a IA entende que "sua capital" é Brasília, o que mostra que o histórico da conversa está sendo enviado.
+
+![Chatbot respondendo uma pergunta de continuação](imagens/03_pergunta_continuacao.png)
+
+**Chave inválida:** em vez de uma tela de erro do Python, o app mostra um aviso claro e a conversa continua funcionando.
+
+![Chatbot com aviso de chave inválida](imagens/04_chave_invalida.png)
 
 ## Como o código funciona
 
